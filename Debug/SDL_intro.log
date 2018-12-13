@@ -1,0 +1,15 @@
+﻿  main.cpp
+f:\levent_development\graphics_examples\sdl_sa_img\main.cpp(46): warning C4305: 'initializing': truncation from 'double' to 'float'
+f:\levent_development\graphics_examples\sdl_sa_img\main.cpp(170): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+f:\levent_development\graphics_examples\sdl_sa_img\main.cpp(171): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+f:\levent_development\graphics_examples\sdl_sa_img\main.cpp(183): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+f:\levent_development\graphics_examples\sdl_sa_img\main.cpp(182): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+f:\levent_development\graphics_examples\sdl_sa_img\main.cpp(213): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\levent_development\graphics_examples\sdl_sa_img\main.cpp(218): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+f:\levent_development\graphics_examples\sdl_sa_img\main.cpp(219): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+f:\levent_development\graphics_examples\sdl_sa_img\main.cpp(247): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+f:\levent_development\graphics_examples\sdl_sa_img\main.cpp(248): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+f:\levent_development\graphics_examples\sdl_sa_img\main.cpp(274): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+f:\levent_development\graphics_examples\sdl_sa_img\main.cpp(275): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+f:\levent_development\graphics_examples\sdl_sa_img\main.cpp(352): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  SDL_intro.vcxproj -> F:\Levent_Development\graphics_examples\SDL_SA_img\Debug\SDL_intro.exe
