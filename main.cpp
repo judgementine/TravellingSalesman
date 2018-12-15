@@ -32,7 +32,7 @@ namespace Simulation
 	SDL_Window *window = NULL;
 	SDL_Renderer * renderer = NULL;
 	int nodeSize = 20;
-	int n_nodes = 10;
+	int n_nodes = 3;
 	Node * nodes;
 
 	int *CurrentPath = NULL;
@@ -118,6 +118,7 @@ namespace Simulation
 			int num = 0;
 			while (check)
 			{
+				if (n_nodes == 3)check = false;
 				num = 1 + rand() % (n_nodes - 2);
 				if (num != index)
 				{
@@ -162,6 +163,11 @@ namespace Simulation
 		startIndex = rand() % n_nodes;
 		for (;;)
 		{
+			if (n_nodes == 1)
+			{
+				endIndex = startIndex;
+				break;
+			}
 			endIndex = rand() % n_nodes;
 			if (endIndex != startIndex)break;
 		}
@@ -230,6 +236,7 @@ namespace Simulation
 		SDL_Event event;
 		while (SDL_PollEvent(&event))
 		{
+			
 			if (event.type == SDL_QUIT)
 			{
 				exit(0);
